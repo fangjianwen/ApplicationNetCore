@@ -1,0 +1,27 @@
+﻿@{ }
+
+<html>
+<head>
+</head>
+<body>
+
+
+    <form action="/Admin/AddUserSubmit" method="post">
+
+        账户名:<input type="text" name="UserName" value="" /><br />
+        角色:<select name="RoleName">
+            <option value="user">普通用户</option>
+            <option value="admin">管理员</option>
+        </select>
+        <br />
+        <input type="submit" value="创建" />
+
+    </form>
+    <h5>
+        @if (ViewBag.Msg != null)
+        {
+            @ViewBag.Msg
+        }
+    </h5>
+</body>
+</html>
