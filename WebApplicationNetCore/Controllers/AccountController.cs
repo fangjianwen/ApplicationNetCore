@@ -56,5 +56,10 @@ namespace WebApplicationNetCore.Controllers
         {
             return View();
         }
+        public IActionResult SignOut()
+        {
+            HttpContext.SignOutAsync();
+            return RedirectToAction("Login", "Account");
+        }
     }
 }
