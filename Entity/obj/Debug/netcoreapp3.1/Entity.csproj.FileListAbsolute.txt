@@ -6,3 +6,11 @@ C:\Users\Administrator\source\repos\ApplicationNetCore\Entity\obj\Debug\netcorea
 C:\Users\Administrator\source\repos\ApplicationNetCore\Entity\obj\Debug\netcoreapp3.1\Entity.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\source\repos\ApplicationNetCore\Entity\obj\Debug\netcoreapp3.1\Entity.dll
 C:\Users\Administrator\source\repos\ApplicationNetCore\Entity\obj\Debug\netcoreapp3.1\Entity.pdb
+E:\Work\ApplicationNetCore\Entity\bin\Debug\netcoreapp3.1\Entity.deps.json
+E:\Work\ApplicationNetCore\Entity\bin\Debug\netcoreapp3.1\Entity.dll
+E:\Work\ApplicationNetCore\Entity\bin\Debug\netcoreapp3.1\Entity.pdb
+E:\Work\ApplicationNetCore\Entity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfoInputs.cache
+E:\Work\ApplicationNetCore\Entity\obj\Debug\netcoreapp3.1\Entity.AssemblyInfo.cs
+E:\Work\ApplicationNetCore\Entity\obj\Debug\netcoreapp3.1\Entity.csproj.CoreCompileInputs.cache
+E:\Work\ApplicationNetCore\Entity\obj\Debug\netcoreapp3.1\Entity.dll
+E:\Work\ApplicationNetCore\Entity\obj\Debug\netcoreapp3.1\Entity.pdb
