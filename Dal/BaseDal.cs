@@ -19,8 +19,6 @@ namespace Dal
         /// EF 上下文对象
         /// </summary>
         AppDbContext db = new AppDbContext();
-
-
         //增
         #region 1.0 新增实体，返回受影响的行数 +  int Add(T model)
         /// <summary>
@@ -56,7 +54,7 @@ namespace Dal
         /// </summary>
         /// <param name="model">必须包含要删除id的对象</param>
         /// <returns></returns>
-        public int Del(T model)
+        public int Delete(T model)
         {
             db.Set<T>().Attach(model);
             db.Set<T>().Remove(model);
@@ -69,7 +67,7 @@ namespace Dal
         /// </summary>
         /// <param name="delWhere"></param>
         /// <returns>返回受影响的行数</returns>
-        public int DelBy(Expression<Func<T, bool>> delWhere)
+        public int Delete(Expression<Func<T, bool>> delWhere)
         {
             //2.1.1 查询要删除的数据
             List<T> listDeleting = db.Set<T>().Where(delWhere).ToList();

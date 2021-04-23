@@ -8476,6 +8476,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Bll >= 1.0.0",
+      "Dal >= 1.0.0",
       "Entity >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5"
     ]
@@ -8519,6 +8520,9 @@
           "projectReferences": {
             "E:\\Work\\ApplicationNetCore\\Bll\\Bll.csproj": {
               "projectPath": "E:\\Work\\ApplicationNetCore\\Bll\\Bll.csproj"
+            },
+            "E:\\Work\\ApplicationNetCore\\Dal\\Dal.csproj": {
+              "projectPath": "E:\\Work\\ApplicationNetCore\\Dal\\Dal.csproj"
             },
             "E:\\Work\\ApplicationNetCore\\Entity\\Entity.csproj": {
               "projectPath": "E:\\Work\\ApplicationNetCore\\Entity\\Entity.csproj"
