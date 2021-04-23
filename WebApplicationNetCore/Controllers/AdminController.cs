@@ -23,7 +23,10 @@ namespace WebApplicationNetCore.Controllers
         [HttpPost]
         public IActionResult AddUserSubmit(Users model)
         {
-            bool result = BaseBll.Add(model);
+            //bool result = BaseBll.Add(model);
+            Users user = BaseBll.GetModel<Users>(p => p.UserId == 1);
+            user.UserName += new Random().Next(0,100);
+            bool result = BaseBll.Update(user);
             if (result)
             {
                 ViewBag.Msg = "创建用户成功";
