@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace WebApplicationNetCore.Controllers
 {
+    [Route("MyRoute/{controller}/{action}/{id?}")]
     public class MyController : Controller
     {
+       
         public IActionResult Index()
         {
             return View();

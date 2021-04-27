@@ -32,6 +32,7 @@
       "WebApplicationNetCore/1.0.0": {
         "dependencies": {
           "Bll": "1.0.0",
+          "Dal": "1.0.0",
           "Entity": "1.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.5",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
